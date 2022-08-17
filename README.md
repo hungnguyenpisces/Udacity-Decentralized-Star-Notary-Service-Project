@@ -136,3 +136,60 @@ compilers: {
 ---
 
 Do not use the [Old depreacted zipped starter code](https://s3.amazonaws.com/video.udacity-data.com/topher/2019/January/5c51c4c0_project-5-starter-code/project-5-starter-code.zip)
+
+=====================================================================================================================
+======================
+> Network name:    'develop'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0x640a931da648fa656caf6195adaf973312e82a785aa3d52d430c22e894f9278b
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x37693a3f6CE0b00Fe59aAAa5Ef43c7d46bd21006
+   > block number:        1
+   > block timestamp:     1660746699
+   > account:             0xF5ea97c2f44ac979eC3707FFecb78B1aC66400e4
+   > balance:             99.999074953
+   > gas used:            274088 (0x42ea8)
+   > gas price:           3.375 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000925047 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000925047 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'StarNotary'
+   ----------------------
+   > transaction hash:    0x5b7d5a6888ba05f6efe6ca088c3218149a3ec27f34265ab8d957a07d50342b44
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x6ffF43aE8418f24f12D6FcF354ad1e55f53B2D93
+   > block number:        3
+   > block timestamp:     1660746700
+   > account:             0xF5ea97c2f44ac979eC3707FFecb78B1aC66400e4
+   > balance:             99.990181965803776332
+   > gas used:            2750058 (0x29f66a)
+   > gas price:           3.179049676 gwei
+   > value sent:          0 ETH
+   > total cost:          0.008742570993881208 ETH
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.008742570993881208 ETH
+
+Summary
+=======
+> Total deployments:   2
+> Final cost:          0.009667617993881208 ETH
